@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-07-2022 a las 22:23:26
+-- Tiempo de generación: 26-07-2022 a las 22:40:38
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.1.6
 
@@ -44,7 +44,8 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`id`, `name`, `email`, `address`, `mobile`, `update_by`, `update_on`, `created_by`, `created_on`) VALUES
-(1, 'Sachin', 'sachin@gmail.com', 'Pune', 1231231, 0, '0000-00-00', 1, '2022-07-26');
+(1, 'Sachin', 'sachin@gmail.com', 'Pune', 1231231, 0, '0000-00-00', 1, '2022-07-26'),
+(3, 'Dinesh', 'dinesh@gmail.com', 'Pune', 123432123, 0, '0000-00-00', 1, '2022-07-26');
 
 -- --------------------------------------------------------
 
@@ -95,7 +96,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT de la tabla `customers`
 --
 ALTER TABLE `customers`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `users`
